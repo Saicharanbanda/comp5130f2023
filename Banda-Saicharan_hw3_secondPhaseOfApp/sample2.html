@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User Information Form</title>
+    <style>
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+
+        input[type="file"], textarea {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>User Information Form</h1>
+    <form action="process_user_info.php" method="post" enctype="multipart/form-data">
+        <label for="photo">Upload Photo:</label>
+        <input type="file" name="photo" id="photo" accept="image/*" required>
+
+        <label for="resume">Upload Resume:</label>
+        <input type="file" name "resume" id="resume" accept=".pdf,.doc,.docx" required>
+
+        <label for="hobbies">Hobbies:</label>
+        <textarea id="hobbies" name="hobbies" rows="4" cols="50" required></textarea>
+
+        <input type="submit" value="Submit User Information">
+    </form>
+</body>
+</html>

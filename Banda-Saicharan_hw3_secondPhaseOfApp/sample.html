@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Family Information</title>
+    <style>
+        body {
+            padding: 20px;
+        }
+        
+        h1 {
+            margin-bottom: 30px;
+        }
+
+        form {
+            margin-bottom: 30px;
+        }
+
+        label,
+        textarea,
+        input {
+            display: block;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Family Information</h1>
+    <h2>About my family</h2>
+    <p> My family consists of 5 people.I live with my father,mother,grandmother and i also have a younger brother</p>
+    
+    <form id="family-info-form">
+        <label for="family-info">Tell us about your family:</label>
+        <textarea id="family-info" name="familyInfo" rows="4" cols="50" placeholder="Write about your family here..."></textarea>
+        
+        <label for="favorite-family-member">Who do you like the most in your family?</label>
+        <input type="text" id="favorite-family-member" name="favoriteFamilyMember" placeholder="Favorite family member's name">
+        
+        <label for="reason">Why do you like them the most?</label>
+        <textarea id="reason" name="likeReason" rows="4" cols="50" placeholder="Explain why you like them the most..."></textarea>
+        
+        <label for="fun-fact">Share a fun fact about your family:</label>
+        <input type="text" id "fun-fact" name="funFact" placeholder="Fun fact about your family">
+        
+        <button type="button" id="submit-button">Submit</button>
+    </form>
+</body>
+<p>For more information about your family, please click the "Next" button.</p>
+    <a href="sample2.html">Next</a>
+</html>
+
+</html>

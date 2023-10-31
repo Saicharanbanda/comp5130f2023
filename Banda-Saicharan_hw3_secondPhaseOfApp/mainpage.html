@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saicharan's Webpage</title>
+    <style>
+        .form-row {
+            margin-bottom: 20px;
+        }
+
+        .form-row label {
+            display: block;
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1><center>Welcome to my webpage</center></h1>
+    <h2>Let's Get to Know Each Other</h2>
+    <p>
+        Hello, I am Saicharan. I was born in Hyderabad, India. I completed my schooling at Sri Sai Public School, Hyderabad, and I also earned my undergraduate degree from BVRIT with a grade of 80%. Currently, I am pursuing my master's degree in computer science at the University of Massachusetts, Lowell.
+    </p>
+
+    <h2>Let's Know About You</h2>
+
+    <form id="user-info-form" action="/submit" method="post">
+        <div class="form-row">
+            <label for="name">My name is:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+
+        <div class="form-row">
+            <label for="place-of-birth">My Place of Birth:</label>
+            <input type="text" id="place-of-birth" name="placeOfBirth">
+        </div>
+
+        <div class="form-row">
+            <label for="current-location">I am From:</label>
+            <input type="text" id="current-location" name="currentLocation">
+        </div>
+
+        <div class="form-row">
+            <label for="desired-location">Presently I am living:</label>
+            <input type="text" id="desired-location" name="desiredLocation">
+        </div>
+
+        <div class="form-row">
+            <label for="significant-other-location">My Gender:</label>
+            <input type="text" id="significant-other-location" name="significantOtherLocation">
+        </div>
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <h2>For more interaction</h2>
+    <p>Please press the link below to interact more</p>
+    <a href="sample.html">Next</a>
+</body>
+</html>
