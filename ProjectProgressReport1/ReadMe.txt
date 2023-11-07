@@ -1,0 +1,1 @@
+This week we have created the HTML structure in which my role was to classify the contents and provide information about user profile and features that are included in our project. In future my role would mostly be in backend development i.e regarding storing users information and updating using various backend technologies.
