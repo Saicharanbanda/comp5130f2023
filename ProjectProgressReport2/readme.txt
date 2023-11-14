@@ -1,0 +1,1 @@
+This week there is significant progress that I have been looking into various authors and types of short stories that needed to be included in our database and enhance the app into dark and light mode according to user wish. I also started working on the database connection between the webpage and the sql server.
