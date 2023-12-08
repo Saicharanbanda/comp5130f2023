@@ -1,0 +1,1 @@
+PROJECT TITTLE: MODERN AND FUTURE ATTACKS ON WEB PAGES: MESURES REFERNECES: 1.https://owasp.org/www-community/attacks/xss/2. https://owasp.org/www-community/attacks/csrf3. https://www.cloudflare.com/en-in/learning/ddos/what-is-a-ddos-attack/ 
