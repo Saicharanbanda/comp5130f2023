@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guest Login</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="guest_script.js" defer></script>
+   
+    <style>
+        /* Your styles remain the same */
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>Login Successful</h2>
+    <p>You have logged in successfully with Guest Mode.</p>
+</div>
+
+<script>
+    // Redirect to guest_login.html after 5 seconds
+    setTimeout(function() {
+        window.location.href = 'guest_login.html';
+    }, 5000); // 10000 milliseconds = 5 seconds
+
+    // Register Service Worker
+    if ('serviceWorker' in navigator) {
+        window.addEventListener('load', function() {
+            navigator.serviceWorker.register('/service-worker.js')
+            .then(function(registration) {
+                console.log('Service Worker registered with scope:', registration.scope);
+            })
+            .catch(function(error) {
+                console.log('Service Worker registration failed:', error);
+            });
+        });
+    }
+</script>
+
+<footer>
+    <p>&copy; COMP5130f2023 Beyond the Pages (by Bhanu Teja Kanumuri). All rights reserved.</p>
+</footer>
+
+</body>
+</html>
