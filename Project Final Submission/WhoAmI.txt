@@ -1,0 +1,16 @@
+Team of three Members:
+
+1. Bhanu Teja Kanumuri - 02005421
+ Github Username - bkanumur
+ EmailL - BhanuTeja_Kanumuri@student.uml.edu
+ CS ID - bkanumur@cs.uml.edu
+ 
+2. Saicharan Banda - 02082080
+   Giithub Username - Saichranbanda
+   Email - saicharanmudiraj_banda@student.uml.edu
+   CS ID - sbanda@cs.uml.edu
+
+3. Laxmi Niveditha Gandham - 02034250
+   Giithub Username - sbanda
+   Email - laxminiveditha_gandham@student.uml.edu
+   CS ID - lgandham@cs.uml.edu  
