@@ -1,1 +1,0 @@
-This week I most proud of establishing the connections and also there has been working if the website does contains any hosting services and thinking of updates that could be made to the website.
